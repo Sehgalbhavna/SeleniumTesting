@@ -14,6 +14,7 @@ public class myFristTest {
 		 baseUrl = "http://easyshop.com.ng/";
 		driver.get(baseUrl + "/index.php?route=common/home");
 		driver.findElement(By.id("search")).clear();
+		//adding comment
 
 	}
 
